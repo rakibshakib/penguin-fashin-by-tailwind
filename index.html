@@ -1,16 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tail wind css here -->
-    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <!-- custom css here -->
     <link rel="stylesheet" href="css/custom-style.css">
     <title>Penguin Fashion</title>
 </head>
+
 <body>
-    
+    <header class="bg-color">
+        <nav class='container mx-auto py-5'>
+            <div class="nav-items flex justify-between items-center my-1">
+
+                <div class="nav-logo">
+                    <img src="icons/brand-name-logo.png" alt="">
+                </div>
+
+                <div class="nav-option">
+                    <ul class="flex space-x-6 font-semibold">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About US</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <section class="container mx-auto py-3">
+            <div class="banner-section lg:flex justify-between items-center py-10 mx-5">
+                <div class="banner-details w-6/12 ">
+                    <h2 class='sm:text-6xl text-3xl md:text-7xl font-black my-5'> <span class="color-text">Be the
+                            Penguins</span> <br>
+                        of Winter</h2>
+                    <p class="my-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vel quibusdam
+                        temporibus nesciunt fugiat eius sapiente quos illum a asperiores.</p>
+                    <button class="penguin-btn" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+                <div class="banner-img">
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- card section  -->
+        <section class='my-10 container mx-auto'>
+            <!-- women jacket  -->
+            <h2 class='md:text-5xl text-3xl ml-5 font-bold'>Women Jacket</h2>
+            <div class="jacket-items my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4">
+                <div class="jacket-card p-8 mx-2 md:w-96">
+                    <div class="jacket-img p-5 flex item-center">
+                        <img src="/images/jacket-1.png" alt="">
+                    </div>
+                    <div class="jacket-description">
+                        <h4 class="jacket-title text-xl font-bold">
+                            Yello Coat Jacket
+                        </h4>
+                        <p class="jacket-pera text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias provident! Minus
+                            accusamus fugiat quia.
+                        </p>
+                        <div class="jacket-price flex justify-between items-center mt-10">
+                            <h4 class='text-4xl	font-bold color-text'>$256</h4>
+                            <button class="penguin-btn" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="jacket-card p-8 mx-2 md:w-96">
+                    <div class="jacket-img p-5 flex item-center">
+                        <img src="/images/jacket-2.png" alt="">
+                    </div>
+                    <div class="jacket-description">
+                        <h4 class="jacket-title text-xl font-bold">
+                            Yello Coat Jacket
+                        </h4>
+                        <p class="jacket-pera text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias provident! Minus
+                            accusamus fugiat quia.
+                        </p>
+                        <div class="jacket-price flex justify-between items-center mt-10">
+                            <h4 class='text-4xl	font-bold color-text'>$256</h4>
+                            <button class="penguin-btn" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="jacket-card p-8 mx-2 md:w-96">
+                    <div class="jacket-img p-5 flex item-center">
+                        <img src="/images/jacket-3.png" alt="">
+                    </div>
+                    <div class="jacket-description">
+                        <h4 class="jacket-title text-xl font-bold">
+                            Yello Coat Jacket
+                        </h4>
+                        <p class="jacket-pera text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias provident! Minus
+                            accusamus fugiat quia.
+                        </p>
+                        <div class="jacket-price flex justify-between items-center mt-10 ">
+                            <h4 class='text-4xl	font-bold color-text'>$256</h4>
+                            <button class="penguin-btn" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <!-- jacket section -->
+        <section class="container mx-auto">
+            <h2 class='md:text-5xl text-3xl ml-5 font-bold'>Man Jacket</h2>
+            <div class="jacket-items my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4">
+                <div class="jacket-card p-8 mx-2 md:w-96">
+                    <div class="jacket-img p-5 flex item-center">
+                        <img src="/images/jacket-4.png" alt="">
+                    </div>
+                    <div class="jacket-description">
+                        <h4 class="jacket-title text-xl font-bold">
+                            Yello Coat Jacket
+                        </h4>
+                        <p class="jacket-pera text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias provident! Minus
+                            accusamus fugiat quia.
+                        </p>
+                        <div class="jacket-price flex justify-between items-center mt-8">
+                            <h4 class='text-4xl	font-bold color-text'>$256</h4>
+                            <button class="penguin-btn" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="jacket-card p-8 mx-2 md:w-96">
+                    <div class="jacket-img p-5 flex item-center">
+                        <img src="/images/jacket-5.png" alt="">
+                    </div>
+                    <div class="jacket-description">
+                        <h4 class="jacket-title text-xl font-bold">
+                            Yello Coat Jacket
+                        </h4>
+                        <p class="jacket-pera text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias provident! Minus
+                            accusamus fugiat quia.
+                        </p>
+                        <div class="jacket-price flex justify-between items-center mt-8">
+                            <h4 class='text-4xl	font-bold color-text'>$256</h4>
+                            <button class="penguin-btn" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="jacket-card p-8 mx-2 md:w-96">
+                    <div class="jacket-img p-5 flex item-center">
+                        <img src="/images/jacket-6.png" alt="">
+                    </div>
+                    <div class="jacket-description">
+                        <h4 class="jacket-title text-xl font-bold">
+                            Yello Coat Jacket
+                        </h4>
+                        <p class="jacket-pera text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias provident! Minus
+                            accusamus fugiat quia.
+                        </p>
+                        <div class="jacket-price flex justify-between items-center mt-8 ">
+                            <h4 class='text-4xl	font-bold color-text'>$256</h4>
+                            <button class="penguin-btn " href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <section class='my-10'>
+            <div class="shop-section container mx-auto">
+                <!-- using flex in shop item  -->
+                <div class="shop-items flex md:flex-row lg:flex-row sm:flex-col flex-col justify-between items-center mx-10 my-10">
+                    <div class="shop-item">
+                        <div class="flex md:flex-row flex-col items-center item-box m-auto">
+                            <figure class='icon-img '>
+                                <img src="icons/image12.png" alt="">
+                            </figure>
+                            <div class="item-details md:ml-10">
+                                <h2>Find the Perfect Fit</h2>
+                                <p>Everybody is different, which is why we
+                                    offer styles for every body.</p>
+                            </div>
+                        </div>
+                        <div class="md:flex items-center item-box">
+                            <figure class='icon-img'>
+                                <img src="icons/image13.png" alt="">
+                            </figure>
+                            <div class="item-details md:ml-10">
+                                <h2>Free Exchanges</h2>
+                                <p>One of the many reasons you can shop
+                                    with peace of mind.</p>
+                            </div>
+                        </div>
+                        <div class="md:flex items-center item-box">
+                            <figure class='icon-img'>
+                                <img src="icons/image14.png" alt="">
+                            </figure>
+                            <div class="item-details md:ml-10">
+                                <h2>Contact Our Seller</h2>
+                                <p>They are here to help you. That's quite
+                                    literally what we pay them for.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sm:w-2/3 lg:w-2/4 w-72">
+                        <img src="images/shopping.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- simple grid test  -->
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5 container mx-auto">
+                <div class="bg-red-200">1</div>
+                <div class="bg-yellow-200 order-first lg:row-span-3">2</div>
+                <div class="bg-green-200 ">3</div>
+                <div class="bg-blue-200 ">4</div>
+            </div>
+            <!-- simple grid test  -->
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

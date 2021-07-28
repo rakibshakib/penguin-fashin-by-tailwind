@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* --------------------------------
+          global css here 
+    --------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* header css here */
+.bg-color {
+    background: #FFFBF0;
+}
+
+/* mav nar css here */
+.nav-logo {
+    width: 292px;
+    height: 40px;
+}
+
+.nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* banner css here */
+.color-text {
+    color: #FABE4C;
+}
+
+.penguin-btn {
+    padding: 15px 30px;
+    color: white;
+    font-size: 1 rem;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+}
+
+/* card section */
+.jacket-card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.jacket-img {
+    width: 290px;
+    height: 290px;
+}
+
+.jacket-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* shoppin cart section */
+.shop-img {
+    width: 600px;
+    height: 355px;
+}
+
+.shop-img img {
+    width: 100%;
+    padding: 10px
+}
+
+.icon-img {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-box {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px 30px;
+}
