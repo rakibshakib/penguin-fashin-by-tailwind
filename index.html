@@ -33,12 +33,14 @@
 
         </nav>
         <section class="container mx-auto py-3">
-            <div class="banner-section lg:flex justify-between items-center py-10 mx-5">
-                <div class="banner-details w-6/12 ">
-                    <h2 class='sm:text-6xl text-3xl md:text-7xl font-black my-5'> <span class="color-text">Be the
+            <div
+                class="banner-section flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between items-center py-10 mx-5">
+                <div class="banner-details lg:w-6/12 md:w-3/5 sm:w-3/12 ">
+                    <h2 class='sm:text-6xl text-5xl md:text-5xl font-black my-5'> <span class="color-text">Be the
                             Penguins</span> <br>
                         of Winter</h2>
-                    <p class="my-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vel quibusdam
+                    <p class="my-10 text-xl md:text-xl lg:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur vel quibusdam
                         temporibus nesciunt fugiat eius sapiente quos illum a asperiores.</p>
                     <button class="penguin-btn" href="">
                         <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -227,35 +229,36 @@
         <section class='my-10'>
             <div class="shop-section container mx-auto">
                 <!-- using flex in shop item  -->
-                <div class="shop-items flex md:flex-row lg:flex-row sm:flex-col flex-col justify-between items-center mx-10 my-10">
+                <div
+                    class="shop-items flex md:flex-row lg:flex-row sm:flex-col flex-col justify-between items-center mx-10 my-10">
                     <div class="shop-item">
                         <div class="flex md:flex-row flex-col items-center item-box m-auto">
                             <figure class='icon-img '>
                                 <img src="icons/image12.png" alt="">
                             </figure>
-                            <div class="item-details md:ml-10">
-                                <h2>Find the Perfect Fit</h2>
-                                <p>Everybody is different, which is why we
+                            <div class="item-details md:ml-10 md:text-left text-center">
+                                <h2 class='text-2xl font-black'>Find the Perfect Fit</h2>
+                                <p class='text-base'>Everybody is different, which is why we
                                     offer styles for every body.</p>
                             </div>
                         </div>
-                        <div class="md:flex items-center item-box">
+                        <div class="flex md:flex-row flex-col items-center item-box m-auto">
                             <figure class='icon-img'>
                                 <img src="icons/image13.png" alt="">
                             </figure>
-                            <div class="item-details md:ml-10">
-                                <h2>Free Exchanges</h2>
-                                <p>One of the many reasons you can shop
+                            <div class="item-details md:ml-10 md:text-left text-center">
+                                <h2 class='text-2xl font-black'>Free Exchanges</h2>
+                                <p class='text-base'>One of the many reasons you can shop
                                     with peace of mind.</p>
                             </div>
                         </div>
-                        <div class="md:flex items-center item-box">
+                        <div class="flex md:flex-row flex-col items-center item-box m-auto">
                             <figure class='icon-img'>
                                 <img src="icons/image14.png" alt="">
                             </figure>
-                            <div class="item-details md:ml-10">
-                                <h2>Contact Our Seller</h2>
-                                <p>They are here to help you. That's quite
+                            <div class="item-details md:ml-10 md:text-left text-center">
+                                <h2 class='text-2xl font-black'>Contact Our Seller</h2>
+                                <p class='text-base'>They are here to help you. That's quite
                                     literally what we pay them for.</p>
                             </div>
                         </div>
@@ -266,24 +269,68 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-            <!-- simple grid test  -->
-            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5 container mx-auto">
-                <div class="bg-red-200">1</div>
-                <div class="bg-yellow-200 order-first lg:row-span-3">2</div>
-                <div class="bg-green-200 ">3</div>
-                <div class="bg-blue-200 ">4</div>
-            </div>
-            <!-- simple grid test  -->
         </section>
+
+
+
+
+
+
+        <section class='my-20'>
+            <!-- shop item grid -->
+            <div class="shop-grid container mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5">
+
+                    <div class="flex md:flex-row flex-col items-center shadow-lg py-2 px-3 rounded-md">
+                        <figure class='icon-img '>
+                            <img src="icons/image12.png" alt="">
+                        </figure>
+                        <div class="item-details md:ml-10 md:text-left text-center">
+                            <h2 class='text-2xl font-black'>Find the Perfect Fit</h2>
+                            <p class='text-base'>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+
+                    <div class="order-first lg:row-span-3 py-2 px-3">
+                        <img src="images/shopping.png" alt="">
+                    </div>
+
+                    <div class="flex md:flex-row flex-col items-center shadow-lg py-2 px-3 rounded-md">
+                        <figure class='icon-img'>
+                            <img src="icons/image13.png" alt="">
+                        </figure>
+                        <div class="item-details md:ml-10 md:text-left text-center">
+                            <h2 class='text-2xl font-black'>Free Exchanges</h2>
+                            <p class='text-base'>One of the many reasons you can shop
+                                with peace of mind.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex md:flex-row flex-col items-center shadow-lg py-2 px-3 rounded-md">
+                        <figure class='icon-img'>
+                            <img src="icons/image14.png" alt="">
+                        </figure>
+                        <div class="item-details md:ml-10 md:text-left text-center">
+                            <h2 class='text-2xl font-black'>Contact Our Seller</h2>
+                            <p class='text-base'>They are here to help you. That's quite
+                                literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- simple grid test  -->
+        <!-- <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5 container mx-auto">
+            <div class="bg-red-200">1</div>
+            <div class="bg-yellow-200 order-first lg:row-span-3">2</div>
+            <div class="bg-green-200 ">3</div>
+            <div class="bg-blue-200 ">4</div>
+        </div> -->
+        <!-- simple grid test  -->
+
     </main>
     <footer>
 
