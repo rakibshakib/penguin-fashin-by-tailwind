@@ -1,2 +1,2 @@
 # penguin-fashin-by-tailwind
-![Alt text](./images/ss.png?raw=true "screen shot")
+![Alt text](./images/screen.png?raw=true "screen shot")
